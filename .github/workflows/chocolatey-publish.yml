@@ -49,7 +49,7 @@ jobs:
           VERSION="${RELEASE_TAG#v}"
 
           AMD64_SHA=$(grep "windows_amd64.zip" checksums.txt | awk '{print $1}')
-          ARM64_SHA=$(grep "windows_arm64.zip" checksums.txt | awk '{print $1}')
+          ARM64_SHA=$(grep "windows_arm64.zip" checksums.txt | awk '{print $1}' || true)
           echo "==> Version: $VERSION"
           echo "==> amd64 SHA256: $AMD64_SHA"
           echo "==> arm64 SHA256: $ARM64_SHA"
