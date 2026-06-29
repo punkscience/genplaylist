@@ -1,0 +1,15 @@
+Package: genplaylist
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Darryl Wright <darryl@punkscience.ca>
+Installed-Size: 2316
+Filename: pool/main/genplaylist_0.1.0_amd64.deb
+Size: 1025968
+MD5sum: f4a85ac7cc967567670b470ccd808d7c
+SHA1: 6cd7d82190706dc517b3617fffb7f93dc09dbb75
+SHA256: cd9dbdb630dd19dbf3b89753c680808e99e5a4d52695c89dbace973af3ee5e7f
+Section: utils
+Priority: optional
+Homepage: https://github.com/punkscience/genplaylist
+Description: Generate playlists from audio files in a folder
+

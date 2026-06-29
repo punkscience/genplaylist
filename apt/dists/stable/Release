@@ -1,0 +1,28 @@
+Origin: Punk Science
+Label: genplaylist
+Suite: stable
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Description: Generate playlists from audio files in a folder
+Date: Mon, 29 Jun 2026 16:21:02 UTC
+MD5Sum:
+ 14eba0f9bb3591286bab4b8f112a6ccd 499 main/binary-amd64/Packages
+ 8ae472fc2cd27ccce80e6edb293fe7eb 378 main/binary-amd64/Packages.gz
+ 895b5b276aae781b334309631af2e757 498 main/binary-arm64/Packages
+ 2c1ff68b4367b9464db18382072cfbda 375 main/binary-arm64/Packages.gz
+SHA1:
+ d25942065983e7a6e6269d706b2923a0cf59e651 499 main/binary-amd64/Packages
+ 006b50b58abcedb7c05b7737b3df3a85a20e7b87 378 main/binary-amd64/Packages.gz
+ 2e29191a20e3b254ad60a814caaab721016cb2ce 498 main/binary-arm64/Packages
+ ae3c7acb1ced1e4aa3061ecd2530cee1cfee544f 375 main/binary-arm64/Packages.gz
+SHA256:
+ 7ed785645d4d661be2460dec2248e8f1e8237f56e78952b69708c2e1e1396383 499 main/binary-amd64/Packages
+ ee12e1317125df028a6421e1ac5f37bf79f2742c17b5e9fa9b6c81e77b0b8200 378 main/binary-amd64/Packages.gz
+ 83e8d62cdb50a0cb2e6d825ff4f0f794cb4eb2d4f5c9d3a33078dbd26da1005d 498 main/binary-arm64/Packages
+ 6bec36390d9ad637b5b26a52f9e05833c18ce1bdba4e8cb4a2738c629a42d3c9 375 main/binary-arm64/Packages.gz
+SHA512:
+ f795e8950cdbbd6139d0f77de25fac6f02ee4dd7c82fadade386bc7285a1f9896bf3d298ce55e45c707507f7302792e22b5246e41357845d7ff9070e9f30cbf7 499 main/binary-amd64/Packages
+ b7e7ae489b6e08e7b42b0b0382bda8f9f81af84ccc0accdd0b06473bca80d78f92a45dda89667cd1537b67ae0ab0ee08d146a85af94122898e889c7d38ffd45d 378 main/binary-amd64/Packages.gz
+ 28adf0e3225de6c5653333e3540ea93d0de7bcc88f7604594efaa09375827649fee02a00ad990fe592756358daeafbb3d8f71502026addfd17eaeb128fed7019 498 main/binary-arm64/Packages
+ 09bdb757158c6f285f2cf749a008bb596877f56e6aeec470c2c835cd9398a015c698b2495bba6aa4993a8188e7df540793bf47d4dc50d19a224bd3393bc4b7ba 375 main/binary-arm64/Packages.gz
