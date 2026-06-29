@@ -1,0 +1,45 @@
+version: 2
+
+builds:
+  - id: linux-amd64
+    goos: [linux]
+    goarch: [amd64]
+    binary: genplaylist
+  - id: linux-arm64
+    goos: [linux]
+    goarch: [arm64]
+    binary: genplaylist
+  - id: windows-amd64
+    goos: [windows]
+    goarch: [amd64]
+    binary: genplaylist
+
+nfpms:
+  - id: genplaylist
+    package_name: genplaylist
+    file_name_template: "{{ .PackageName }}_{{ .Version }}_{{ .Arch }}"
+    vendor: Punk Science
+    maintainer: Darryl Wright <darryl@punkscience.ca>
+    homepage: https://github.com/punkscience/genplaylist
+    description: Generate playlists from audio files in a folder
+    license: MIT
+    formats: [deb]
+    section: utils
+    priority: optional
+    builds:
+      - linux-amd64
+      - linux-arm64
+
+archives:
+  - id: windows
+    builds: [windows-amd64]
+    formats: [zip]
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: "checksums.txt"
+
+release:
+  github:
+    owner: punkscience
+    name: genplaylist
