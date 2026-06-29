@@ -49,6 +49,8 @@ jobs:
           VERSION="${RELEASE_TAG#v}"
 
           AMD64_SHA=$(grep "windows_amd64.zip" checksums.txt | awk '{print $1}')
+          # || true: grep returns 1 when arm64 archive is absent, which would
+          # kill the script under set -e -o pipefail.
           ARM64_SHA=$(grep "windows_arm64.zip" checksums.txt | awk '{print $1}' || true)
           echo "==> Version: $VERSION"
           echo "==> amd64 SHA256: $AMD64_SHA"
