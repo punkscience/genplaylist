@@ -13,6 +13,10 @@ builds:
     goos: [windows]
     goarch: [amd64]
     binary: genplaylist
+  - id: windows-arm64
+    goos: [windows]
+    goarch: [arm64]
+    binary: genplaylist
 
 nfpms:
   - id: genplaylist
@@ -32,7 +36,7 @@ nfpms:
 
 archives:
   - id: windows
-    builds: [windows-amd64]
+    builds: [windows-amd64, windows-arm64]
     formats: [zip]
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
 
